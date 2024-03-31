@@ -1,0 +1,117 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+ /* Here also we can import external css - Just made it for example - Gopal */
+
+.bg-trans-red {
+    background-color: #000 !important;
+  }
+  
+  
+  * {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .navbar-collapse.show {
+    background: rgb(79, 40, 30);
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+  }
+  .sub-heading{
+    font-size: 22px !important;
+    font-weight: bold;
+  }
+  @media (min-width:700px){
+    .menu-lg-right {
+      display: flex !important;
+    }
+    .carousel-caption{
+      bottom: 45% !important;
+      }
+      .btn-custom-round {
+        padding: 5px !important;
+        width: 100px;
+      }
+  }
+  
+  .navbar {
+    height: 15vh !important;
+  }
+  .btn-custom-round {
+    border: 1px solid #fff !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    width: 140px;
+    text-align: center;
+    padding: 14px !important;
+    margin: 5px;
+  }
+  
+  
+  /* About US */
+  
+  .bg-about{
+    background: url(Cafe.jpeg);
+    height:250px;
+    color:#fff !important;
+  }
+  .center-align-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item img, .carousel-item video{
+    height: 99vh !important;
+    object-fit: cover !important;
+  }
+  
+  .img-container {
+    position: relative;
+    display: inline-block;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 48%)
+  }
+  
+  .action-btn{
+    margin-top: 5% !important;
+  }
+  
+  .top-brands .brand-img{
+    width: 70% !important;
+   padding: 10%;
+  }
+  .coffee-menu{
+    text-align: center;
+    margin-top: 15%;
+  }
+  .contact-form{
+    background-color: #70c3be;
+    width: 100%;
+    padding:1%;
+  }
+  #menu-details .card{
+    margin-top:10px !important
+  }
+  
+  .contact-form .btn-submit{
+    background-color: #ccc !important;
+    font-weight: bold;
+    border-radius: unset !important;
+    border-color: #ccc !important;
+    color:#000 !important;
+    
+  }
+  .contact-form .form-control {
+    border-radius: unset !important;
+  }
+  .text-right{
+    text-align: right !important;
+  }

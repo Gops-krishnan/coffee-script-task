@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QScript Coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-trans-red">
+        <div class="container">
+            <a class="navbar-brand" href="#">QScript Coffee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu-details">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner img-container">
+                <div class="carousel-item active" data-bs-interval="20000">
+                    <video src="./assets/videos/home.mp4" autoplay width="100%" loop muted></video>
+                    <div class="overlay"></div>
+                    <div class="carousel-caption">
+                        <h1>Discover Our Signature Brews</h1>
+                        <p>Indulge in the Rich Aromas of Our Handcrafted Coffees</p>
+                        <div class="action-btn">
+                            <a type="button" class="btn btn-outline-primary btn-custom-round"
+                                href="#menu-details">Menu</a>
+                            <a type="button" class="btn btn-outline-primary btn-custom-round" href="#contact-us">Order
+                                Online</a>
+                            <a type="button" class="btn btn-outline-primary btn-custom-round" href="#about-us">Learn
+                                More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="assets/images/Home Image/c-home-1.jpg" class="d-block w-100" alt="...">
+                    <div class="overlay"></div>
+                    <div class="carousel-caption">
+                        <h1>Today's Brews & Bites</h1>
+                        <p>Explore Our Rotating Selection of Specialty Coffees and Treats.</p>
+                        <div class="action-btn">
+                            <a type="button" class="btn btn-outline-primary btn-custom-round"
+                                href="#menu-details">Menu</a>
+                            <a type="button" class="btn btn-outline-primary btn-custom-round" href="#contact-us">Order
+                                Online</a>
+                            <a type="button" class="btn btn-outline-primary btn-custom-round" href="#about-us">Learn
+                                More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="assets/images/Home Image/c-home-2.jpg" class="d-block w-100" alt="...">
+                    <div class="overlay"></div>
+                    <div class="carousel-caption">
+                        <h1>Join Us for Coffee & Conversations</h1>
+                        <p>Stay Updated on Our Events and Community Gatherings.</p>
+                        <div class="action-btn">
+                            <a type="button" class="btn btn-outline-primary btn-custom-round"
+                                href="#menu-details">Menu</a>
+                            <a type="button" class="btn btn-outline-primary btn-custom-round" href="#contact-us">Order
+                                Online</a>
+                            <a type="button" class="btn btn-outline-primary btn-custom-round" href="#about-us">Learn
+                                More</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </article>
+
+    <article id="about-us" class="mt-4">
+        
+        <div class="container mt-2">
+            <div class="row text-center">
+            <div class="text-center sub-heading">
+                About Us
+            </div>
+        </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <div class="card-text mt-4"> We thank you for your interest in our products. QScripts strives to
+                        provide
+                        the ultimate experience to coffee
+                        lovers all over the world. We base this ambition on fundamental pillars: superior quality
+                        coffee, intuitive and easy-to-use machines,
+                        exclusive accessories and personalized services for our customers. This particular
+                        strategy relies largely on our ability to serve our markets via local operations.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row mt-4">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="card mt-2">
+                                <div class="card-body text-center">
+                                    <div class="card-title">
+                                        <b>Our Vision</b>
+                                    </div>
+                                    <div class="card-text ">
+                                        To be the heart of the neighborhood, where people find refuge, spark
+                                        conversations, and savor life's pleasures, known for sustainability,
+                                        inclusivity, and enriching lives
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="card mt-2">
+                                <div class="card-body text-center">
+                                    <div class="card-title">
+                                        <b>Our Mision</b>
+                                    </div>
+                                    <div class="card-text">
+                                        To provide a welcoming space for community connection, offering high-quality
+                                        coffee and beverages while supporting local artisans and fostering memorable
+                                        experiences
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="top-brands text-center mt-4">
+            <h4>Our Top Brands</h4>
+            <div class="row">
+                <div class="col-md-4 col-xs-6">
+                    <img class="brand-img" src="assets/images/Coffee-Brands/nescafe.png">
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <img class="brand-img" src="assets/images/Coffee-Brands/tatata.jpeg">
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <img class="brand-img" src="assets/images/Coffee-Brands/trubru.jpg">
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <img class="brand-img" src="assets/images/Coffee-Brands/levista.jpg">
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <img class="brand-img" src="assets/images/Coffee-Brands/continental.jpg">
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <img class="brand-img" src="assets/images/Coffee-Brands/starbuks.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="menu-details">
+        <div class="container">
+            <div class="text-center sub-heading">
+                Our menus
+            </div>
+            <h5 class="text-center">Hand packed tea leaves from the most premium gardens, brewed to the perfection with
+                all natural ingredients.
+            </h5>
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img src="assets/images/Menu_Items/special.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">QScripts Special Coffee</h5>
+                            <p class="card-text"><strong>Price:</strong> $28.90</p>
+                            <a href="#contact-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img src="assets/images/Menu_Items/Milkshakes1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Milk Shakes</h5>
+                            <p class="card-text"><strong>Price:</strong> $21.00</p>
+                            <a href="#contact-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img src="assets/images/Menu_Items/Premium-Coolers1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Milk Shakes</h5>
+                            <p class="card-text"><strong>Price:</strong> $35.69</p>
+                            <a href="#contact-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img src="assets/images/Menu_Items/Fovored-Milk1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Flavored Milk</h5>
+                            <p class="card-text"><strong>Price:</strong> $60.10</p>
+                            <a href="#contact-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img src="assets/images/Menu_Items/Coolers1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Coolers</h5>
+                            <p class="card-text"><strong>Price:</strong> $90.10</p>
+                            <a href="#contact-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img src="assets/images/Menu_Items/hot-drinks.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Drinks</h5>
+                            <p class="card-text"><strong>Price:</strong> $70.80</p>
+                            <a href="#contact-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </article>
+    <div class="contact-form mt-2" id="contact-us">
+        <div class="text-center sub-heading">
+            Contact Us
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-xs-12 mt-3">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="form-control" placeholder="Enter Name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-xs-12 mt-3">
+                                <div class="form-group">
+                                    <input type="text" id="mobile" class="form-control" placeholder="Enter Phone Number"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-3">
+                                <div class="form-group">
+                                    <input type="email" id="email" class="form-control" placeholder="Enter Email"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <div class="form-group">
+                                    <textarea rows="3" id="message" class="form-control" placeholder="Enter Message"
+                                        required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 text-right mt-4">
+                                <button type="submit" class="btn btn-primary btn-submit" size="25">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-xs-12 mt-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62636.38689695128!2d77.30104437215323!3d11.13018895517945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba90769310e2a87%3A0x370d79f545ecd793!2sKUMBAKONAM%20DEGREE%20COFFEE!5e0!3m2!1sta!2sin!4v1711866600133!5m2!1sta!2sin"
+                        height="250" style="border:0;width:100%" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+            <div id="footer-text" class="text-center">
+
+            </div>
+        </div>	
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script>
+    // all links 
+    const navLinks = document.querySelectorAll('.nav-link');
+    // event listener for that links
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            navLinks.forEach(navLink => {
+                navLink.classList.remove('active');
+            });
+            this.classList.add('active');
+           
+        });
+    });
+
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        submitForm();
+    });
+
+    function submitForm() {
+        const name = document.getElementById("name");
+        const email = document.getElementById("email");
+        const message = document.getElementById("message");
+        const mobile = document.getElementById("mobile");
+        if (!name?.value) {
+            name.focus();
+            return alert("Please enter the name");
+        }
+        if (!email?.value) {
+            email.focus();
+            return alert("Please enter the email");
+        }
+        if (!message?.value) {
+            message.focus();
+            return alert("Please enter the message");
+        }
+        if (!mobile?.value) {
+            mobile.focus();
+            return alert("Please enter the mobile");
+        }
+
+        name.value = '';
+        email.value = '';
+        message.value = '';
+        mobile.value = '';
+        return alert("Your response submitted successfully!!");
+
+    }
+    let footertext =  document.getElementById("footer-text");
+    footertext.innerHTML = `QScript Coffee || Made by Gopalakrishnan @ ${new Date().getFullYear()}`
+</script>
+
+</html>
+`
